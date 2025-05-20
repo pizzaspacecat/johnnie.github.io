@@ -1,0 +1,49 @@
+
+  body {
+  background: #222 url("anistars.gif"); 
+	color: white;
+	
+  }
+  
+a {
+  color: #33c1ff;
+  }
+  
+a:hover {
+  color: #95dfff;
+  }
+  
+.main {
+  margin: 0 auto;
+  width: 500px;
+  background: rgb(10, 10, 10, 0.9);
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 2px #42c6ff;
+  }
+
+.main-inner {
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  
+
+.main img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+.footer {
+  margin: 0 auto;
+  padding: 15px;
+  padding-top: 0px;
+  margin-top: -20px;
+  text-align: center;
+  font-size: 12px;
+  }
+
+@media(orientation: portrait) {
+    .main {
+      width: 80%;
+      }
+  }
